@@ -1,0 +1,18 @@
+{
+  "Name": "Shouko Nishimiya NPC Mod",
+  "Author": "Arcane",
+  "Description": "Brings Shouko Nishimiya from A Silent Voice to Pelican Town.",
+  "Version": "1.3.0",
+  "UniqueID": "Arcane.ShoukoNPC",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+  },
+  "UpdateKeys": ["Nexus:5511"],
+  "Dependencies": [
+   {
+      "UniqueID": "SuperAardvark.AntiSocial",
+      "IsRequired": true
+   }
+]
+  
+}

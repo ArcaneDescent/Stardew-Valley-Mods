@@ -1,0 +1,17 @@
+{
+  "addMaps": [
+    {
+      "name": "Shouko2",
+      "file": "assets/maps/Shouko2.tmx",
+      "addWarps": [
+        "2 7 BusStop 12 9"
+      ]
+    },
+	{
+	"name": "SeedShop",
+	"file": "assets/maps/SeedShop.tmx",
+	"addLocation": false
+	},
+
+  ]
+}

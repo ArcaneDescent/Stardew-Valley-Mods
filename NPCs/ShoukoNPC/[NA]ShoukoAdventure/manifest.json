@@ -1,0 +1,13 @@
+{
+  "Name": "Shouko Adventure",
+  "Author": "Arcane",
+  "Version": "1.0.0",
+  "Description": "Adds Shouko to NPC adventures.",
+  "UniqueID": "Arcane.ShoukoAdventure",
+  "MinimumApiVersion": "3.1.0",
+  "UpdateKeys": ["Nexus:5511"],
+  "ContentPackFor": {
+    "UniqueID": "purrplingcat.npcadventure",
+    "MinimumVersion": "0.11.0"
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "Format": "1.19.0",
+ 
+		
+      "ConfigSchema": {
+	    "Seasonal": {
+		"AllowValues": "true, false",
+		"Default": "true",
+		"AllowBlank": false
+	                		 },
+	    "Story": {
+		"AllowValues": "Lore, Canon",
+		"Default": "Lore",
+		"AllowBlank": false
+	                		 },
+
+				
+		           },
+				   
+  "Changes": [
+    {
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Shouko": "teen/polite/shy/neutral/female/datable/null/Town/summer 7/Abigail 'host sister' Pierre 'host dad' Caroline 'host mom'/SeedShop 6 9/Shouko",
+		"Speaker": "adult/neutral/neutral/neutral/male/not-datable/null/other/spring 1/null/ Town -100 -100/Speaker"
+      }
+    },
+	
+	{"LogName": "AntiSocial Manifestation",
+	 "Action": "EditData",
+	 "Target": "AntiScoialNPCs",
+	 "Entries": {
+		"Speaker": true
+	 }
+	}, 
+	
+    {
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Shouko": "(This is just what I wanted! Thank you very much.)/227 228 614/(This is very nice, thank you.)/815 216 812 423 202/(Thank you.)//%Shouko gives you a polite smile, but it seems forced.//(Thank you. this is nice.)/ "
+      }
+    },
+
+
+
+    //Cane's Resource for a list of Music IDs: https://docs.google.com/spreadsheets/d/1CpDrw23peQiq-C7F2FjYOMePaYe0Rc9BwQsj3h6sjyo/edit#gid=239695361
+    //(0 = up, 1 = right, 2 = down, 3 = left)
+
+  {
+	"LogName": "ShoukoIntroEvent",
+	"Action": "EditData",
+	"Target": "Data/Events/Town",
+	"Entries": {
+	"5511001": "cm:svg/38 58/farmer 35 58 1 Speaker 35 58 1 Shouko 42 57 0 Abigail -100 -100 2/skippable/pause 3000/emote farmer 40/message \"You try saying hello, but she doesn't respond.\"/move Speaker 5 0 0 true/move farmer 5 0 0/pause 1000/message \"Once again, you say hello to her, but a litte louder. She still doesn't seem to notice you.\"/emote farmer 28/pause 1000/move Speaker 0 0 1 true/move farmer 0 0 1/moev Speaker 2 0 0 true/move farmer 2 0 0/pause 1000/message \"You decide to give her a little shoulder tap.\"/pause 500/jump Shouko 6/emote Shouko 16/pause 500/move Shouko 0 0 2/speak Shouko \"$8...!\"/pause 1000/message \"She looks very surprised.\"/pause 2000/warp Abigail 44 57/playSound doorOpen/pause 500/speak Abigail \"What happened?$b I thought I heard Shouko.\"/pause 1000/move Abigail 0 0 3/speak Abigail \"Oh, hey, @!$h#$b#Have you meet Shouko yet?$b She's an exchange student from Japan.$b She came not long before you, about a month ago.\"/pause 2000/speak Shouko \"...\"/pause 500/message \"Shouko gives you a small wave.\"/pause 500/emote farmer 32/pause 2000/message \"You think about why she didn't notice you.\"/message \"You realize that she has a small red hearing aid in her ear, and her wrinkled journal is labeled 'Communications Notebook'.\"/message \"You piece this together, and realize...\"/pause 1000/speak Abigail \"Shouko is deaf.\"/pause 800/emote farmer 16/pause 1000/message \"You try to recall the sign language you learned when you were younger...\"/pause 300/emote farmer 40/pause 800/textAboveHead Speaker \"(Hello!)\"/pause 2000/emote Shouko 16/pause 500/speak Shouko \"...!$8\"/pause 1000/speak Shouko \"(Sign language know?)\"/pause 500/speak Abigail \"Wow, I didn't know you knew sign language, @.\"/pause 2000/speak Abigail \"That's pretty cool.$b I took it as one of my online courses after seeing that film, \"A Quiet Cry\".\"/pause 3000/speak Abigail \"Well, Shouko and I need to go to Sebastian's house.$h See you later @!\"/pause 750/move Abigail 5 0 1 true/pause 1500/speak Shouko \"...\"/pause 750/move Abigail 0 0 3/speak Abigail \"C'mon Shouko, let's go.\"/pause 750/move Abigail 0 0 0 true/speak Shouko \"...see you later @.\"/pause 250/speed Shouko 5/move Shouko 5 0 1 true/pause 500/ move farmer 0 0 1/move Abigail 0 15 0 true/speed Shouko4/move Shouko 0 15 0 true/pause 3000/fade/end"
+      }
+//emote farmer 40/message \"You try saying hello, but she doesn't respond.\"/move Speaker 5 0 0 true/move farmer 5 0 0/pause 1000/message \"Once again, you say hello to her, but a litte louder. She still doesn't seem to notice you.\"/emote farmer 28/pause 1000/move Speaker 0 0 1 true/move farmer 0 0 1/moev Speaker 2 0 0 true/move farmer 2 0 0/pause 1000/message \"You decide to give her a little shoulder tap.\"/pause 500/jump Shouko 6/emote Shouko 16/pause 500/move Shouko 0 0 2/speak Shouko \"$8...!\"/pause 1000/message \"She looks very surprised.\"/pause 2000/warp Abigail 44 57/playSound doorOpen/pause 500/speak Abigail \"What happened?$b I thought I heard Shouko.\"/pause 1000/move Abigail 0 0 3/speak Abigail \"Oh, hey, @!$h#$b#Have you meet Shouko yet?$b She's an exchange student from Japan.$b She came not long before you, about a month ago.\"/pause 2000/speak Shouko \"...\"/pause 500/message \"Shouko gives you a small wave.\"/pause 500/emote farmer 32/pause 2000/message \"You think about why she didn't notice you.\"/message \"You realize that she has a small red hearing aid in her ear, and her wrinkled journal is labeled 'Communications Notebook'.\"/message \"You piece this together, and realize...\"/pause 1000/speak Abigail \"Shouko is deaf.\"/pause 800/emote farmer 16/pause 1000/message \"You try to recall the sign language you learned when you were younger...\"/pause 300/emote farmer 40/pause 800/textAboveHead Speaker \"(Hello!)\"/pause 2000/emote Shouko 16/pause 500/speak Shouko \"...!$8\"/pause 1000/speak Shouko \"(Sign language know?)\"/pause 500/
+
+//#$q -1 null#$h Where'd you learn sign language?#$r 55111 0 abigailquestionsone#In high school to meet my language requirements.#$r 55110002 0 abigailquestionstwo#In college as one of my courses.#$r 55110003 0 abigailquestionsthree#In my free time to increase my knowledge.
+
+    },
+    {
+    "LogName": "Shouko2heart",
+    "Action": "EditData",
+    "Target": "Data/Events/ArchaeologyHouse",
+    "Entries": {
+    "5511002": "cm:IvsVar/end" 
+    
+    //Penny, Abigil, and SHouko learning sign language in the museum
+    }
+    },
+
+    {
+    "LogName": "Shouko4heart",
+    "Action": "EditData",
+    "Target": "Data/Events/Town",
+    "Entries": {
+    "5511003": "cm:/end"
+   //bridge and bread
+   }
+    },
+    
+    {
+    "LogName": "Shouko5heart",
+    "Action": "EditData",
+    "Target": "Data/Events/SeedShop",
+    "Entries": {
+    "5511004": "cm:/end"
+    //baking bread
+    }
+    },
+    
+    {
+    "LogName": "Shouko6heart",
+    "Action": "EditData",
+    "Target": "Data/Events/Saloon",
+    "Entries": {
+    "5511005": "cm:lit/end"
+    //Serious talk with SHouko
+    }
+    },
+    
+    {
+    "LogName": "Shouko8heart",
+    "Action": "EditData",
+    "Target": "Data/Events/CindersapFoest",
+    "Entries": {
+    "5511006": "cm:/end",
+
+    }
+    },
+    
+    
+    
+	
+    {
+      "LogName": "Animations",
+      "Action": "EditData",
+      "Target": "Data/animationdescriptions",
+      "Entries": {
+      "shouko_bread": "0 0/16 17 18 19 20 19 18 17 16/0 0"
+     }
+    },
+      {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Shouko",
+      "FromFile": "assets/img/Sprite.png"
+    },
+{
+	"Action": "EditImage",
+	"Target": "Characters/Shouko",
+	"FromFile": "assets/img/Sprite_{{season}}.png",
+	"When": {
+	"Seasonal": "true"
+	}
+    },
+
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Shouko",
+      "FromFile": "assets/img/Portrait.png"
+    },
+    {
+	"Action": "EditImage",
+	"Target": "Portraits/Shouko",
+	"FromFile": "assets/img/Portrait_{{season}}.png",
+	"When": {
+	"Seasonal": "true"
+	}
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Shouko",
+      "FromFile": "assets/schedules/Schedule.json"
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Shouko",
+      "FromFile": "assets/dialogue/Dialogue.json"
+    },
+    {
+      "LogName": "Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "Shouko0": "I am so happy!$1",
+        "Shouko1": "I'm so nervous for tomorrow.$4"
+      }
+    },
+    {
+      "LogName": "Marriage Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueShouko",
+      "FromFile": "assets/dialogue/MarriageDialogue.json"
+    },
+   
+
+      ]
+}

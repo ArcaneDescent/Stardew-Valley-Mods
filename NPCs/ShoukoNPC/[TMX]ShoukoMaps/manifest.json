@@ -1,0 +1,12 @@
+{
+  "Name": "Shouko Maps",
+  "Author": "Enderwarrior360",
+  "Description": "Maps for Shouko NPC.",
+  "Version": "1.0.0",
+  "UniqueID": "Arcane.ShoukoMaps",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader"
+  },
+  "UpdateKeys": ["Nexus:5511"]
+  
+}

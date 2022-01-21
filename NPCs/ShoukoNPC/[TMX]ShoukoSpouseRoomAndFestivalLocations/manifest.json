@@ -1,0 +1,11 @@
+{
+  "Name": "Shouko Spouse room and locations",
+  "Author": "Arcane",
+  "Version": "1.0.0",
+  "Description": "Spouse Room and festival locations for Shouko.",
+  "UniqueID": "Arcane.Shoukoroom",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.4.0"
+  }
+}

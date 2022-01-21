@@ -1,0 +1,11 @@
+{
+  "Name": "Shouko Music",
+  "Author": "Arcane",
+  "Version": "1.0.0",
+  "Description": "Custom Music for Shouko.",
+  "UniqueID": "Arcane.CustomMusic.Shouko",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomMusic",
+    "MinimumVersion": "1.0.3"
+  }
+}

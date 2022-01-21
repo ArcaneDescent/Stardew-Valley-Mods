@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.3" orientation="orthogonal" renderorder="right-down" width="48" height="32" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="28">
+ <properties>
+  <property name="DayTiles" value="Front 6 1 256 Front 6 2 288 Front 7 1 256 Front 7 2 288 Front 27 1 256 Front 27 2 288 Front 36 1 225 Front 37 1 225 Front 36 2 469 Front 37 2 469 Front 36 3 501 Front 37 3 501 Front 2 14 256 Front 2 15 288 Buildings 32 2 38 Buildings 32 3 70 Back 32 4 102"/>
+  <property name="Doors" value="13 11 1 120 20 11 1 120 14 16 1 120"/>
+  <property name="NightTiles" value="Front 6 1 1253 Front 6 2 1285 Front 7 1 1253 Front 7 2 1285 Front 27 1 1253 Front 27 2 1285 Front 36 1 1222 Front 37 1 1222 Front 36 2 1219 Front 37 2 1219 Front 36 3 1251 Front 37 3 1251 Front 2 14 1253 Front 2 15 1285 Buildings 32 2 39 Buildings 32 3 71 Back 32 4 103"/>
+  <property name="Warp" value="6 30 Town 43 57"/>
+ </properties>
+ <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior" width="512" height="1088"/>
+  <tile id="546">
+   <animation>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="547" duration="150"/>
+    <frame tileid="548" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="547" duration="150"/>
+    <frame tileid="548" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="547" duration="150"/>
+    <frame tileid="548" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="547" duration="150"/>
+    <frame tileid="548" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="547" duration="150"/>
+    <frame tileid="548" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="547" duration="150"/>
+    <frame tileid="548" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="2177" name="2" tilewidth="16" tileheight="16" tilecount="128" columns="32">
+  <image source="townInterior_2" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="2305" name="Paths" tilewidth="16" tileheight="16" tilecount="32" columns="4">
+  <image source="paths" width="64" height="128"/>
+ </tileset>
+ <layer id="1" name="Back" width="48" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzVmM9OU0EUxmeuVIcXKGIFiVrFpUsWLSBRGnkGhEIUkhITH0DbFfEB3OtDuNcd+BQujKEueAAwiOdk5qSnp/OvQlOc5OPcmXs79zffPTNzL1oppf8Dhcpl9X88hDjPfISNM+bybxRKbRaj56f7NJSNVPfFGL+8/rXob1HbNtkux3ns+sNYc3ojVGP8bfhtB7SrrBoe4fl2gn8RztcLG5dY/OQk23l8wfjroJkMzTL/8b5HRqlnUH+o/bqn8/3fYL5+daL6H+jkHDsK+F9hvoc0B7ot/N+H43nG+0NZUf1Rgh/72TY2nulev9hGzw/jLOgOaK7obx+Gf4nx0/iR/4bu6ZoT1RsZ/q+YwbxGfqpve87/i/+1gP+cXyqVP23hJ7JumcF2GUPrUGoc3H+8V4o/x3/pO58L1I5lD86tGXvNWkAV1btfbL1tXxJ/yN8Vkf9YHmsrvC8dSyF/aGxS6Mtd+M1HiF+KwUjHufuXL8clP14X29/wnqGxSXF/6J7cRz7HcvhDz4JK3a39nci+QPtlyymWQ5se7udwYsFFPtdS/HIsKRGnbMPcorHQuKZLVotivB3BTVoQ9RT/XiJPPxQ9rYk53DKDc3KLzR3cU4j5TPfvLXzsnJ2Uy5/K089FT745HJs/FJFd7i0+/mk4ngLdBJVVPv8wuUNey9/69pJYnfdH3G+ZaBwp/gPQT9A30GFmrGobj0DdgP98D6c638s5fznAX87g/wUqaRu7ajA+MP52isQf8532dHrX2ij651jZsXJ+akvxT8Kfhgn7XYVzRtvrfFH67/PdNy/4HCOvJf9Upv/Ij3HV2OMTOD4F/QbdNzZPrgsduOul/xhj71C+9Ye8Xmcaxn/MEfITlmo1DfEWqOLOSd8pf3ZMOP9DkZ4H7Qfr6uL+Y468V1Yyv6ue/KdxTGq//9xn+S7lW38u6j/mCOU8zYdd5zs/J2NJ5a8/oW8Hvv5Ipfi7jgNZn+K3qOmfDzMA2NJxEf8oFSo8r18C8yvmO7afT8S/4TF2I/2PuuC9D11cZXlO69B34H8i8kDWx8kfWtd3HD/6v2z618WmmI/j5Mfiy7eqe69Btqbp/5ZcvkL+hwqu+ViQbdntReR3UzyPq8bPnwP5fwJ5dDrR85/q766g/5I/9b+UcfL/BfymY1A=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="48" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzVl8tvTUEcx+fc2+u28WZRVCIWoiStoEm7k6JR9bbptUU96m3Tl5CwqBZBhQUiLGiDf4DEhkgf7IXEuu3d6MKrLeo7zvxyf3c658zc04r6JZ+cc2Z+Z+Yzc2fOOVcIIWaCWRGQ4SmiRr6FZQ5tlIAxRSk7t5WtYv63EkLccOBmItPvclBsYYVlDJVgG1ji+Wxn57ayHcx/J9jlwG5QpfrdBDoxydUimM0qP8z/GFjn+Qyq43FV9g7HfhwHvEwO1Z9g/ifBKbA3JsS+mH+eFxciAaaBYlV2mvkfBN3wr0FdrSIF9oBDwuewg/8VcBYS50BBbHxOEmX54CJoU/WvkXuV+V9TuedRf8HQRrUq62D+raquHnUNikbQBJpBi+zPwV/GvQibsDCW8V9gcK5ERR3mfr3WNvm7xJDn5h8lXngZ/0/wHzKMQY++mNn/MRp5Ap565vygiOo/A+1+ZP6zMc9z4tk5w6gYAaPMKW3wb/Oy/XtV/sqYm/9D5D9ifdTh/AC79jRMZfp7QDotRN+LQFEs4yTD5N8H3oC3XnZuehLmn7tVqGO5IY/q9DHFFbzslUO/FDb/DWhwIxuz3He05+6zNVIDUiqnFmzRoDrT2PSosKf8iQ503BVSH7QOTNSDRtAEGsARDaozjS1orFWOuITNv92xHTk2eufpY+Rj5f4UpvVpe7TLxx7/ZtKD1q+eI48Fqn19H9E7T0YRbl6sPZsodHe+PmkMYf5LQ+qoTR7lwjxHUZ7D0p3caG/J3+WS8H9DOYatIty/Ut0btk75da3IniNqfyL+8l7aW2Xqd5JHOYajDv7y3qB1+iwevE95+xP1b1fOc8E8MD/uX1928A/bl+8D1i0FtR/F/6U68nfBavS3Bqxl/dr8C9U++4x7voCv4Bv4DoYt/tR+rv7T45n9I/dTWUA/stzm3+zgOIqcH+An+AXG5D15fh359zl8v/Gg90SKlcnvKoLC5n/bwT8syD+doz+9A/m+1cNl/p+re1twPBNhLFHXvymizP8H5XwHx7sB/i7rJ9fQv1v134Cubf4jk7B+Hqjz67aXvYoOb7x/WPthdalESIJD5PINGJWgkPO/3/TRo0VrEv/fk+Zrxyn/KyH9exzyprJ/Cea/NN//HYLWUidcu5Lm63/pT/2b1hs/74ZrD/PvxXnfFPHXw+TfD9cB5j+I8/R/5O+SP1ViMp9vfzt+A36lwa0=
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings">
+  <object id="1" name="TileData" x="208" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SeedShop.1&quot;"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="512" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Warp_Sunroom_Door"/>
+   </properties>
+  </object>
+  <object id="3" name="TileData" x="144" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SeedShop.2&quot;"/>
+   </properties>
+  </object>
+  <object id="4" name="TileData" x="160" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SeedShop.3&quot;"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="176" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="NPCMessage Abigail &quot;Data\ExtraDialogue:SeedShop_Abigail_Drawers/Strings\Locations:SeedShop_Abigail_Drawers&quot;"/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="320" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SeedShop.4&quot;"/>
+   </properties>
+  </object>
+  <object id="7" name="TileData" x="336" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SeedShop.5&quot;"/>
+   </properties>
+  </object>
+  <object id="8" name="TileData" x="624" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SeedShop.6&quot;"/>
+   </properties>
+  </object>
+  <object id="9" name="TileData" x="32" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SeedShop.7&quot;"/>
+   </properties>
+  </object>
+  <object id="10" name="TileData" x="240" y="96" width="16" height="16">
+   <properties>
+    <property name="Actionasdf" value="Message "/>
+   </properties>
+  </object>
+  <object id="11" name="TileData" x="400" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SeedShop.8&quot;"/>
+   </properties>
+  </object>
+  <object id="12" name="TileData" x="640" y="128" width="16" height="16">
+   <properties>
+    <property name="Action" value="Letter &quot;SeedShop.9&quot;"/>
+   </properties>
+  </object>
+  <object id="14" name="TileData" x="208" y="176" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door Abigail"/>
+   </properties>
+  </object>
+  <object id="15" name="TileData" x="320" y="176" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door Pierre Caroline"/>
+   </properties>
+  </object>
+  <object id="16" name="TileData" x="368" y="208" width="16" height="16">
+   <properties>
+    <property name="asdf" value="Message &quot;SeedShop.11&quot;"/>
+   </properties>
+  </object>
+  <object id="17" name="TileData" x="224" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door"/>
+   </properties>
+  </object>
+  <object id="18" name="TileData" x="576" y="272" width="16" height="16">
+   <properties>
+    <property name="Action" value="Yoba"/>
+   </properties>
+  </object>
+  <object id="19" name="TileData" x="592" y="272" width="16" height="16">
+   <properties>
+    <property name="Action" value="Yoba"/>
+   </properties>
+  </object>
+  <object id="20" name="TileData" x="608" y="272" width="16" height="16">
+   <properties>
+    <property name="Action" value="Yoba"/>
+   </properties>
+  </object>
+  <object id="21" name="TileData" x="64" y="288" width="16" height="16">
+   <properties>
+    <property name="Action" value="Buy General"/>
+   </properties>
+  </object>
+  <object id="22" name="TileData" x="80" y="288" width="16" height="16">
+   <properties>
+    <property name="Action" value="Buy General"/>
+   </properties>
+  </object>
+  <object id="23" name="TileData" x="112" y="288" width="16" height="16">
+   <properties>
+    <property name="Action" value="BuyBackpack"/>
+   </properties>
+  </object>
+  <object id="24" name="TileData" x="304" y="304" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SeedShop.12&quot;"/>
+   </properties>
+  </object>
+  <object id="26" name="TileData" x="128" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SeedShop.10&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Front" width="48" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzlVztPVEEUntmFsI0WgkqLhsbYKfiqEN8RXx1gNGABi2/8Az6iKNBZoVKoBBAtAE2Mgo9ooZ1EEVHwAVEbK2EDJlr4jXdO9jB77517Fwgav+TLzNw75+w3Z87MPSuEEBEwyrgt5j8mZoBS0/ThZUc2wrDx+s0M4Y88cBmYC6cXwaJM57mUDgnq+W20d8CF+OFF4HL085kPhfV4Xgx2MzuC8mfa1EFnF9ps2OSAo8LhBDgpkvO9UKTbE/C9mOnNkw45XoH9YAF+pzDiPNvIfChU4vkB/e4z2i/g10jSp5uNwgrMWQkOSIdr0V/HfsOmfx9s9oNdMnXOEvhZClaDce2zWMe1JpaqhVABX/lIgkq0I8yvqV/C5zG8b0Q7IR2WoV8eQn86mJSO7zjW8MNl3afUe+g/bbwjmyDok06MvBDUjxuaZTKWLxCrvojdpiPivmf18NWg9kCmzp+t+Cu45TLhLbS8A4eYpm6ZahPHsyPgTrAEvMHmRwLoP4v553h+or+JjVvAVnAr4nadPWsD28Gr4DWRfEeaGvV+dBqa3PTvAI+Ch4259Rb9Kn/aML+d2VShX238noKS81T3n4jUu53e0Xppza1sTGsOk7d++a/i8AxanzO9deif1+OTer/5Hb9GtwPCubvvgp3sHa2NvkGXsfArkanfJlqrDbXSP/6097Z48f0uBQc9/JXqtgm8pPs90N6rc6kPfMnmt7j8Jh/T708XYc65Wts98L4eD0H7sMfdpGJLNch2o4YoiSXfeUH6kIPvEz/D5rkmjDIHP6H9l0U/na2EnqdalYe2+ofXXm71lltdxc8w+U/nHlbrPyOmnq2c6NTWVv+QLdVqzdpuDBxn81bhfQGLKZ1h8p+Ofoo92aqYc/2JEPUDr9UK0V8AZoNNUUd3rpFQpawfph7gqNH5TbZK83doHgPH2Vps9/904VfD+YHHP+FxPhIBvr+TOrb9WO9rcAB8Aw5GnW+6Qg/6veAD8CH4CHzM4hNW/7dI8juhzhPF2oR6bvt+lXnYcgxhzjD4HvwAfgQ/Mf1qHzsC1G9eSDf+M5k/I+alGwJ+8Q9af5Zj7l4PPzOdP24w9yDM/WNDkPzZhfjvBvcE3Af6/tG3z9wDGtvyf7rg8T8eUHutTN6fNg22/F+d6TNBY3OWEFuy3MdKh60O9KrLlH4/W1v9pta+IcAZroLW6iz3Ma/BwlCEnOulPwgaoPUQ0x9H/xbTP1dQ+TMPnB9z9sErl24yvX/s0G/8C/RT7vGc4/Ux9Q8a8b+AfgfL/7mEmWuUU0Hv9bmMvxsqhLMPqjb/F/Ur0JmntfD8mo3/p/8rfgNw2+xZ
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="7" name="Paths" width="48" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztVwsOwyAIrW6uev8Lb2YhZQaoiPaT+RJjSik8KQW6LBMT90VKv3spb7UnyWOFbf/ReaWvbo1+L1C+YsE9CJyyPJ91VZyxXBHtWu6BsFfKJP6g+6zwXZ6xNWckm5RMim1N3Ft0tTYhFp6I5RH8Ne8iotwouVJ50os/zssjv/Er54/V7x34O6ZOQW2qxVn8Jd+aul9TY0dByx/XkzPjvsfBMXnVmmMaUDWXk+3FUKrflmc54HmLu4eXJXdH9t2R/iCunD2P5lVtP1vTZj8/+0BzRO85y1K7OFAzJjd/Wns+xzMY489dW+JCvSuuRlm+KfjvAOA5dMScPhqYs+uQM0fjCj1SC03/mpiYmPh3vAFuBwsN
+  </data>
+ </layer>
+ <objectgroup id="8" name="Paths"/>
+</map>

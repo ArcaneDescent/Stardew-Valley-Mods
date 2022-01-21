@@ -1,0 +1,9 @@
+{
+  "Format": "1.23.0",
+  "ConfigSchema": {
+    "Apricot": {
+      "AllowValues": "enabled, disabled",
+      "Default": "enabled"
+    }
+  }
+}

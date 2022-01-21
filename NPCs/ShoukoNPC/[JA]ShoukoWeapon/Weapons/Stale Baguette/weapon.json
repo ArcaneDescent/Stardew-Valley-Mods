@@ -1,0 +1,17 @@
+{
+	"Name": "Stale Baguette",
+	"Description": "It's a really, really stale baguette. Harder than a rock.",
+	"Type": "club",
+	"MinimumDamage": 19,
+	"MaximumDamage": 32,
+	"Knockback": 1.9,
+	"Speed": -4,
+	"Accuracy": 1,
+	"Defense": 1,
+	"MineDropVar": 0,
+	"MineDropMinimumLevel": -1,
+	"ExtraSwingArea": -1,
+	"CritChance": 0,
+	"CritMultiplier": 2,
+	"CanPurchase": false,
+}

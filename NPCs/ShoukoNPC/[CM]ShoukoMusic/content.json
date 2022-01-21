@@ -1,0 +1,23 @@
+{
+	"Music" : [
+	{
+		"Id": "Lit",
+		"File": "lit.wav",
+		"Preload": true
+	},
+	{
+		"Id": "svg",
+		"File": "svg.wav",
+		"Preload": true,
+		"Loop": true
+	},
+
+
+	{
+		"Id": "IvsVar",
+		"File": "ivsvar.wav",
+		"Preload": true,
+		"Loop": true
+	}
+	]
+}

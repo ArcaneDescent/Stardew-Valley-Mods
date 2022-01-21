@@ -1,0 +1,21 @@
+{
+  "companionAccepted": "(OK, @! Lead the way!)$h",
+  "companionAccepted_Spouse": "(Go out?)$l#$b#(Of course! Lead the way!)$h",
+  "companionRejected": "(Sorry, @, but I don't think I can go today.)$s",
+  "companionRejectedNight": "Sorry, @. It's late and I have to go back to Pierre's now. Abigail's waiting for me.)$s",
+  "companionDismiss": "(Ok, then. Thanks for inviting me, @.)$h",
+  "companionDismissAuto": "(It's really late, @. I ought to go home now.)",
+  "companionRecruited": "(Let's  do something fun!)$h",
+  "companionRecruited_Spouse": "(Let's go!)$e(But stay safe, ok @?)",
+  "companionSuggest": "(I feel like doing something fun today.)$b(Want to join me?) #$q -1 -1##$r -1 0 Yes#OK! Where are you going? #$r -1 0 No#Sorry, but I'm busy today. Maybe another time...",
+  "companionSuggest_Yes": "(Great! Lead the way!)$h",
+  "companionSuggest_No": "((That's fine, @. Tommorow then.)",
+  "companion_Beach": "(We didn't have a beach in my city, so it's nice to be able to experience it here.)",
+  "companion_Farm": "(Your farm's pretty big, isn't it? How do you manage to maintain all of that land?)",
+  "companion_Farm_Spouse": "(Look, it's all of your hard work on our farm.)",
+  "companion_Forest": "(Let's go explore!)$h",
+  "companion_Mine": "(it's cold here.)$u#$b$(Be careful, okay?)",
+  "companion_Mountain": "(The mountain looks scary, doesn't it?)",
+  "companion_Town": "( Let's go, @!)$h",
+  "companion_Town_winter": "(It's pretty cold out, right?)$b(I'm glad I wore my jacket today.)"
+}

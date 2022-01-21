@@ -1,0 +1,12 @@
+{
+  "Name": "Shouko Weapon",
+  "Author": "Arcane",
+  "Description": "Adds a custom weapon for Shouko Nishimiya for NPC adventures.",
+  "Version": "1.0.0",
+  "UniqueID": "Arcane.ShoukoWeapon",
+  "ContentPackFor": {
+    "UniqueID": "spacechase0.JsonAssets"
+  },
+  "UpdateKeys": ["Nexus:5511"]
+  
+}
