@@ -1,0 +1,17 @@
+{
+"Format": "1.24.0",
+"ConfigSchema": {
+	
+},
+"Changes": [
+{
+	"LogName": " NPC Manifestation",
+	"Action": "EditData",
+	"Target":"Data/NPCDispositions",
+	"Entries": {
+		//SHOUKO, EDIT LATER FOR POSITIONS!!!!!!!
+		"Shouko" :
+		"teen/polite/shy/neutral/female/not-datable/null/town/summer 7//NULL COME BACK LAYER/Shouko",
+	},
+	
+	
