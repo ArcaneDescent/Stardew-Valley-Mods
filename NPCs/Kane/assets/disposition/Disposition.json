@@ -1,0 +1,11 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "data/NPCDispositions",
+      "Entries": {
+        "Kane": "adult/rude/shy/negative/female/non-datable/null/Town/winter 5/ PregnancyRole become/Town 50 100/Kane"
+      }
+    }
+  ]
+}

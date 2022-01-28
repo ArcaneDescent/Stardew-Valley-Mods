@@ -1,0 +1,13 @@
+{
+  "Name": "Kane NPC",
+  "Author": "Arcane",
+  "Description": "Kane NPC",
+  "Version": "0.0.1",
+  "UniqueID": "Arcane.KaneNPC",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+  },
+  "UpdateKeys": ["Nexus:5511"],
+
+  
+}
